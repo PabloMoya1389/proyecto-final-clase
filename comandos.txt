@@ -1,0 +1,11 @@
+echo "# proyecto-final-clase" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/PabloMoya1389/proyecto-final-clase.git
+git push -u origin main
+
+git remote add origin https://github.com/PabloMoya1389/proyecto-final-clase.git
+git branch -M main
+git push -u origin main

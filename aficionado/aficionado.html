@@ -13,14 +13,16 @@
         #div1{
             background-color: green;
             text-align: center;
-            border-radius: 2rem;
+            border-radius: 1rem;
+            border-style: solid;
         }
 
         #div2{
             color: white;
             border:solid;
-            border-radius: 2rem;
+            border-radius: 1rem;
             background-color: rgb(148, 238, 177);
+            
         }
 
         #h4uno{
@@ -31,9 +33,57 @@
             text-align: center;
             color: white;
         }
+
+        #h1uno:hover{
+            transform: scale(1.25);
+        }
+
+        #div3{
+            background-size: cover;
+
+        }
+        #div3:hover{
+            transform: scale(0.98);   
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 300px) {
+            th, td {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        #div4
+        {
+            background-color: black;
+
+        }
+        
     </style>
 </head>
 <body>
+    <!--Barra de imagenes -->
     <div id="div1">
         <a type="button" href="https://www.conmebol.com/" target="_blank" >
             <img src="https://www.fbf.com.bo/img/conmebol.png" width="40px" height="35px" >
@@ -45,7 +95,7 @@
             <img src="https://www.fbf.com.bo/img/escudo.png" width="40px" height="40px" >
         </a>             
     </div>
-    
+    <!--Barra de navegacion-->
     <div id="div2">
         <table>
             <tr>
@@ -71,21 +121,30 @@
             </tr>
         </table>
     </div>
+
+    <!--titulo-->
     <h1 id="h1uno">Area de aficionado</h1>
 
+    <!--tabla corrcta-->
+    <h2 style="color: #f2f2f2;">Noticias de la Division de Aficionados</h2>
 
-      
-    
-    
-  
+    <table>
+        <tbody>
+            <tr>
+                <td style="text-align: center;"><img id="div3" src="https://www.fbf.com.bo/images/upload/N-9f2e738eae668811b5dea0a345c7e1f3.jpeg" alt="Descripción de la imagen"></td>
+                <td style="text-align: center;"> <img id="div3" src="https://www.fbf.com.bo/images/upload/N-73532dc2863be358712fbd024b934125.jpeg" alt=""> </td>
+            </tr>
+            <!-- Agrega más filas según sea necesario -->
+        </tbody>
+    </table>
 
-
-
-
-
-
-
-
-    
+    <!--pie de pagina-->
+    <div id="div1">
+       <img src="https://www.fbf.com.bo/img/logo-footer-centro.png" width="150px" height="150px">
+       <h5 style="text-align: center;">Av. Libertador Bolivar Nro 1168, 4to Piso
+        Teléfonos: (591-4) 4244982 / 4245890 / 4281873
+        Fax: (591-4) 4282132 - Casilla 484
+        Cochabamba - Bolivia</h5>
+    </div>    
 </body>
 </html>

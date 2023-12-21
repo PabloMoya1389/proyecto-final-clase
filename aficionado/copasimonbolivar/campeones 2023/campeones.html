@@ -13,27 +13,71 @@
         #div1{
             background-color: green;
             text-align: center;
-            border-radius: 2rem;
+            border-radius: 1rem;
+            border-style: solid;
         }
 
         #div2{
             color: white;
             border:solid;
-            border-radius: 2rem;
+            border-radius: 1rem;
             background-color: rgb(148, 238, 177);
+            height: 7rem;        
         }
 
         #h4uno{
-            margin-bottom: auto;
+            margin-bottom: 5px;
         }
 
         #h1uno{
             text-align: center;
             color: white;
         }
+
+        #h1uno:hover{
+            transform: scale(1.25);
+        }
+
+        #div3{
+            background-size: cover;
+        }
+
+        #div3:hover{
+            transform: scale(0.98);   
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 300px) {
+            th, td {
+                display: block;
+                width: 100%;
+            }
+        }
+        
     </style>
 </head>
 <body>
+    <!--Barra de imagenes -->
     <div id="div1">
         <a type="button" href="https://www.conmebol.com/" target="_blank" >
             <img src="https://www.fbf.com.bo/img/conmebol.png" width="40px" height="35px" >
@@ -45,7 +89,7 @@
             <img src="https://www.fbf.com.bo/img/escudo.png" width="40px" height="40px" >
         </a>             
     </div>
-    
+    <!--Barra de navegacion-->
     <div id="div2">
         <table>
             <tr>
@@ -74,21 +118,57 @@
             </tr>
         </table>
     </div>
-    <h1 id="h1uno">Campeones 2023</h1>
-    
 
-      
-    
-    
-  
+    <!--titulo-->
+    <h1 id="h1uno">Los Campeones</h1>
 
+    <!--tabla corrcta-->
+    <h2 style="color: #f2f2f2;">Noticias de los campeones</h2>
 
+    <table>
+        <tbody>
+            <tr>
+                <td style="text-align: center;"><img id="div3" src="https://jornada.com.bo/wp-content/uploads/2021/12/Universitario-de-Vinto.jpg" ></td>
+                <td style="color: beige;">
+                    <h2>Universitario de Vinto se coronó campeón de la Copa Simón Bolívar..</h2>
+                    Con un empate de 1 a 1, el plantel de FC Universitario de Vinto (Cochabamba) alzó en alto el trofeo de la Copa Simón Bolívar del que se consagró campeón en la casa de su ocasional rival, Universitario, elenco que preparó la fiesta en el estadio Patria de Sucre y se quedó con un sabor amargo, ya que no pudo celebrar como esperaba.
+                    Los dueños de casa tenían la obligación de ganar para así definir el campeonato a través de la ronda de los penales, pero sus argumentos y la falta de cuota de gol no les permitió cumplir con el objetivo, ahora están sentenciados a jugar los partidos del ascenso y descenso indirecto para seguir en la lucha de volver a la División Profesional.
+                    La «U» de Vinto llegó a este campeonato con un perfil bajo, con un trabajo responsable y silencioso hasta llegar a la final en el que supo manejar los tiempos y ahora celebra el ascenso a la División Profesional en el que Wilstermann, Aurora y Mcepal Vinto Palmaflor son los otros representantes cochabambinos.                </td>
+            </tr>
+            <tr>
+                <td style="color: #f2f2f2;">
+                    <h2>Simón Bolívar: Así quedaron conformados los grupos para fase 2</h2>
+                    Se desarrolló el sorteo de la segunda fase de la Copa Simón Bolívar en Cochabamba, los equipos del departamento en el certamen, Municipal de Tarija, Municipalidad de Yacuiba y Atlético Bermejo ya conocen a sus rivales.
 
+GRUPO F: Municipal tiene en su grupo a Sur-Car, el segundo de la serie de Oruro y a Fatic, el primero de La Paz, esto se dio porque al ser nueve primeros, un grupo tenía que quedar con dos primeros. En la fecha uno el conjunto tarijeño recibirá a Fatic en el IV Centenario.
 
+GRUPO C: Por su parte Municipalidad comparte zona junto GV San José y Real Oruro, dos viajes a la capital del folclore boliviano para el conjunto chaqueño que en la jornada uno tiene descanso.
 
+GRUPO E: Finalmente, Atlético cuenta con viajes largos en su zona ya que la integra junto a San Antonio de Bulo Bulo y San Lorenzo de Beni. El cuadro bermejeño visitará a San Antonio en la fecha 1.
+                </td>
+                <td style="text-align: center;"> <img id="div3" src="/aficionado/copasimonbolivar/images-simon/grupos copa simon bolivar.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td > <img src="/aficionado/copasimonbolivar/images-simon/fase final tipo 2.jpg" alt=""></td>
+                <td style="color: beige;">
+                    <h2>Las semifinales de la Copa Simón Bolívar se jugarán el jueves y domingo.</h2>
+                    <p>
+                        La Comisión de Competiciones de la Federación Boliviana de Fútbol (FBF) elaboró la programación de partidos correspondientes a la fase semifinal de la Copa Simón Bolívar y decidió que los partidos de ida se jueguen este jueves 30 de noviembre y las revanchas el domingo 3 de diciembre.
+                        El jueves, la jornada comenzará con el cotejo entre GV San José de Oruro y Torre Fuerte de Santa Cruz, a disputarse en el estadio Jesús Bermúdez de la capital folklórica del país, a partir de las 15:00.
+                        El otro encuentro de la jornada entre Ciudad Nueva Santa Cruz Academia FC del departamento cruceño y CD San Antonio Bulo Bulo de Cochabamba, se llevará a cabo en el estadio Tahuichi Aguilera, desde las 17:00.
+                        Los partidos de vuelta se jugarán el domingo. Torre Fuerte recibirá a GV San José en el estadio Tahuichi Aguilera de Santa Cruz, a partir de las 13:00.
+                        El choque entre CD San Antonio Bulo Bulo y Ciudad Nueva Santa Cruz Academia FC se debe jugar en el estadio Carlos Villegas de Entre Ríos, en el departamento de Cochabamba, a las 15:30.
+                        El campeón de la Copa Simón Bolívar obtendrá como premio el ascenso directo a la División Profesional, mientras que el subcampeón tendrá que disputar el indirecto.
 
+                    </p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
-
-    
+    <!--pie de pagina-->
+    <div id="div1">
+       <img src="https://www.fbf.com.bo/img/logo-footer-centro.png" width="150px" height="150px">
+    </div>    
 </body>
 </html>

@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+
+    <title>Division profesional</title>
+</head>
+<body class="bg-cover bg-p-x:center" style="background-position-x: center; background-size: cover; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/fondo1.jpg);" >
+
+    <!-- Contenedor del Div con Imágenes -->
+    <div class="bg-green-800 flex items-center justify-center space-x-3 rounded-xl border border-solid border-black"  >
+        <a href="https://www.conmebol.com/" target="_blank">
+            <img src="https://www.fbf.com.bo/img/conmebol.png" target="_blank" class="w-16 h-16  cursor-pointer">
+        </a>
+        <a href="https://www.fifa.com/fifaplus/es/">
+            <img src="https://www.fbf.com.bo/img/fifa.png" target="_blank" class="w-24 h-12  cursor-pointer">
+        </a>
+        <a href="https://www.fbf.com.bo/campeonatos.php?id=5" >
+            <img src="https://www.fbf.com.bo/img/escudo.png" target="_blank" class="w-16 h-16  cursor-pointer">
+        </a>
+    </div>
+    
+    <!--barra de navegacion-->
+    <nav class="bg-green-500 p-4 rounded-xl">
+      <div class="container mx-auto flex items-center justify-between flex-wrap">
+  
+          <a href="https://www.fbf.com.bo/campeonatos.php?id=5" target="_blank" class="flex items-center text-white mb-4">
+              <img src="https://www.fbf.com.bo/img/escudo.png" target="_blank" class="w-16 h-16 cursor-pointer mr-2">
+              <span class="text-2xl font-bold">FBF</span>
+          </a>
+  
+          <!-- Menú de Navegación -->
+          <ul class="flex flex-wrap items-center space-x-3">
+              <li><a href="/" class="text-white">Inicio</a></li>
+              <li><a href="/profesional/profesional.html" class="text-white">División Profecional</a></li>
+              <li><a href="/profesional/seleccion/seleccion.html" class="text-white">Selección</a></li>
+              <li><a href="/profesional/seleccion/fixure/calendario eliminatoria.html" class="text-white">Calendario</a></li>
+              <li><a href="/profesional/seleccion/jugadores/jugadores.html" class="text-white">Jugadores</a></li>
+          </ul>
+      </div>
+   </nav>
+
+    <!-- Contenido de la página -->
+    <div class="container mx-auto p-8">
+        <h1 class="text-3xl font-bold mb-4" style="color: rgb(172, 184, 172); text-align: center;" >Jugadores de la seleccion </h1>
+        
+    </div>
+
+    <div class="container mx-auto flex flex-row sm:flex-row">
+
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/medium/102569-1687730507.jpg?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo</strong> Carlos Lampe
+          </p>
+          <p id="info" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Fecha de nacimiento:</strong> 17 de marzo de 1987 (36 años)
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana, Argentina
+            <br>
+            <strong>Altura:</strong> 1,92 m (6′ 4″)
+            <br>
+            <strong>Peso:</strong> 85 kg (187 lb)
+            <br>
+            <strong>Posición:</strong> Arquero
+            <br>
+            <strong>Fichado:</strong> 01/01/2023
+            <br>
+            <strong>Hasta:</strong> 31/12/2024
+          </p>
+          <button onclick="mostrarMas('info')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+      
+
+      <!--segundo jugador-->
+
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/medium/202221-1674746500.jpg?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo:</strong> Diego Bejarano ibañez
+            
+          </p>
+          <p id="info1" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            
+            <strong>Nacimiento:</strong> Santa Cruz de la Sierra, Bolivia
+            <br>
+            <strong>Fecha de nacimiento:</strong> 24 de agosto de 1991
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana
+            <br>
+            <strong>Altura:</strong> 1,74 m (5′ 9″)
+            <br>
+            <strong>Peso:</strong> 70 kg (154 lb)
+            <br>
+            <strong>Posición:</strong> Lateral Derecho
+          </p>
+          <button onclick="mostrarMas('info1')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+      
+
+      <!--TERCER JUGADOR-->
+
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/header/258964-1641547235.jpg?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo:</strong> Guillermo Viscarra
+            <br>
+          </p>
+          <p id="info2" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            
+            <strong>Nacimiento:</strong> Santa Cruz de la Sierra, Bolivia
+            <br>
+            <strong>Fecha de nacimiento:</strong> 07/02/1993 (30)
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana
+            <br>
+            <strong>Altura:</strong> 1,91 m
+            <br>
+            <strong>Posición:</strong> Portero
+          </p>
+          <button onclick="mostrarMas('info2')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+
+      <!--CUARTO JUGADOR-->
+
+    
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/header/481192-1645270306.JPG?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo:</strong> Luis Haquín
+            <br>
+          </p>
+          <p id="info3" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            
+            <strong>Nacimiento:</strong> Santa Cruz de la Sierra, Bolivia
+            <br>
+            <strong>Fecha de nacimiento:</strong> 15/11/1997 (26)
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana
+            <br>
+            <strong>Altura:</strong> 1,90 m
+            <br>
+            <strong>Posición:</strong> Defensa Central
+          </p>
+          <button onclick="mostrarMas('info3')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+
+      <!--quinto-->
+
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/header/623022-1647705231.jpg?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo:</strong> Jairo Quinteros
+            <br>
+          </p>
+          <p id="info4" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            
+            <strong>Nacimiento:</strong> Santa Cruz de la Sierra, Bolivia
+            <br>
+            <strong>Fecha de nacimiento:</strong> 07/02/2001 (22)
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana
+            <br>
+            <strong>Altura:</strong> 1,80 m
+            <br>
+            <strong>Posición:</strong> Defensa Central
+            <br>
+            <strong>Fichado:</strong> 03/07/2023
+            <br>
+            <strong>Hasta:</strong> -
+
+          </p>
+          <button onclick="mostrarMas('info4')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+
+      
+    </div>
+
+
+    <!--segunda fila-->
+
+    <div class="container mx-auto flex flex-row sm:flex-row">
+
+      <!--sexto-->
+
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/header/598101-1689691616.png?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo:</strong> Roberto Fernández
+            <br>
+          </p>
+          <p id="info5" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            
+            <strong>Nacimiento:</strong> Santa Cruz de la Sierra, Bolivia
+            <br>
+            <strong>Fecha de nacimiento:</strong> 12/07/1999 (24)
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana
+            <br>
+            <strong>Altura:</strong> 1,74 m
+            <br>
+            <strong>Posición:</strong> Lateral izquierdo
+            <br>
+            <strong>Fichado:</strong> 08/07/2023
+            <br>
+            <strong>Hasta:</strong> 30/06/2024
+
+          </p>
+          <button onclick="mostrarMas('info5')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+
+      <!--septimo-->
+
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/header/871790-1694569241.jpg?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo:</strong> Diego Medina
+            <br>
+          </p>
+          <p id="info6" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            
+            <strong>Nacimiento:</strong> Santa Cruz de la Sierra, Bolivia
+            <br>
+            <strong>Fecha de nacimiento:</strong> 13/01/2002 (21)
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana
+            <br>
+            <strong>Altura:</strong> 1,75 m
+            <br>
+            <strong>Posición:</strong> Lateral derecho
+            <br>
+            <strong>Fichado:</strong> -
+            <br>
+            <strong>Hasta:</strong> -
+
+          </p>
+          <button onclick="mostrarMas('info6')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+    
+      <!--OCTAVO-->
+
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/header/844176-1681415088.jpg?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo:</strong> Gabriel Villamíl
+            <br>
+          </p>
+          <p id="info7" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            
+            <strong>Nacimiento:</strong> La Paz, Bolivia
+            <br>
+            <strong>Fecha de nacimiento:</strong>  28/06/2001 (22)
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana
+            <br>
+            <strong>Altura:</strong> 1,79 m
+            <br>
+            <strong>Posición:</strong> Mediocentro
+            <br>
+            <strong>Fichado:</strong> 01/01/2021
+            <br>
+            <strong>Hasta:</strong> 31/12/2024
+
+          </p>
+          <button onclick="mostrarMas('info7')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+
+      <!--NOVENO-->
+
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/header/1063811-1674435475.jpg?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo:</strong> Miguelito
+            <br>
+          </p>
+          <p id="info8" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            
+            <strong>Nacimiento:</strong> Santa Cruz de la Sierra, Bolivia
+            <br>
+            <strong>Fecha de nacimiento:</strong> 25/04/2004 (19)
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana
+            <br>
+            <strong>Altura:</strong>  1,77 m
+            <br>
+            <strong>Posición:</strong> Mediocentro ofensivo
+            <br>
+            <strong>Fichado:</strong>  01/04/2023
+            <br>
+            <strong>Hasta:</strong>  31/07/2027
+
+          </p>
+          <button onclick="mostrarMas('info8')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+
+      <!--DECIMO-->
+
+      <div class="w-full sm:w-1/5 p-2">
+        <div class="bg-gray-200 p-2 rounded-md">
+          <img src="https://img.a.transfermarkt.technology/portrait/header/353083-1632386690.jpg?lm=1"  class="w-full h-auto mb-4">
+          <p class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            <strong>Nombre completo:</strong> Carmelo Algarañaz
+            <br>
+          </p>
+          <p id="info9" class="text-left text-xs md:text-base lg:text-lg xl:text-xl">
+            
+            <strong>Nacimiento:</strong> Santa Cruz de la Sierra, Bolivia
+            <br>
+            <strong>Fecha de nacimiento:</strong> 27/01/1996 (27)
+            <br>
+            <strong>Nacionalidad(es):</strong> Boliviana
+            <br>
+            <strong>Altura:</strong>  1,78 m
+            <br>
+            <strong>Posición:</strong> Delantero centro
+            <br>
+            <strong>Fichado:</strong> 03/01/2023
+            <br>
+            <strong>Hasta:</strong> 31/12/2023
+
+          </p>
+          <button onclick="mostrarMas('info9')"><h6 style="font-size: small;">Mostrar más información</h6></button>
+          <script>
+            function mostrarMas(id) {
+              var info = document.getElementById(id);
+              info.classList.toggle("hidden");
+            }
+          </script>
+        </div>
+      </div>
+
+      
+    </div>
+
+
+
+
+
+
+
+      
+
+    <footer class="bg-green-800">
+    <div class="container mx-auto flex items-center justify-center">
+      <img src="https://www.fbf.com.bo/img/logo-footer-centro.png" class="w-48 h-24">
+      <p class="text-white"> © 2023 FBF. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+    
+</body>
+</html>

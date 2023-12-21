@@ -13,27 +13,76 @@
         #div1{
             background-color: green;
             text-align: center;
-            border-radius: 2rem;
+            border-radius: 1rem;
+            border-style: solid;
         }
 
         #div2{
             color: white;
             border:solid;
-            border-radius: 2rem;
+            border-radius: 1rem;
             background-color: rgb(148, 238, 177);
+            height: 7rem;        
         }
 
         #h4uno{
-            margin-bottom: auto;
+            margin-bottom: 5px;
         }
 
         #h1uno{
             text-align: center;
             color: white;
         }
+
+        #h1uno:hover{
+            transform: scale(1.25);
+        }
+
+        #div3{
+            background-size: cover;
+        }
+
+        #div3:hover{
+            transform: scale(0.98);   
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th, td {
+            
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (max-width: 300px) {
+            th, td {
+                display: block;
+                width: 100%;
+            }
+        }
+
+        #div4
+        {
+            
+        }
+        
     </style>
 </head>
 <body>
+    <!--Barra de imagenes -->
     <div id="div1">
         <a type="button" href="https://www.conmebol.com/" target="_blank" >
             <img src="https://www.fbf.com.bo/img/conmebol.png" width="40px" height="35px" >
@@ -45,7 +94,7 @@
             <img src="https://www.fbf.com.bo/img/escudo.png" width="40px" height="40px" >
         </a>             
     </div>
-    
+    <!--Barra de navegacion-->
     <div id="div2">
         <table>
             <tr>
@@ -69,26 +118,48 @@
                         <li>
                             <a href="/aficionado/aficionado.html">Atras</a>
                         </li>
+                        
                     </ul>
                 </td>
             </tr>
         </table>
     </div>
-    <h1 id="h1uno">Equipos clasificados</h1>
-    
 
-      
-    
-    
-  
+    <!--titulo-->
+    <h1 id="h1uno">Lod clasificados</h1>
 
+    <!--tabla corrcta-->
+    <h2 style="color: #f2f2f2;">Noticias de los clasificados</h2>
 
+    <table>
+        <tbody>
+            <tr>
+                <td style="text-align: center;"><img id="div3" src="/aficionado/copasimonbolivar/images-simon/cancha.jpg" alt="Descripción de la imagen"></td>
+                <td style="color: beige;">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae similique sint ut est perferendis quidem harum rem. Cumque, tempora quos. Eveniet dolorum, distinctio tempore incidunt labore aliquid sint delectus explicabo quidem accusamus repellat minima deleniti aliquam mollitia ratione qui asperiores vero commodi! Sapiente voluptates nesciunt necessitatibus maxime unde odio.
+                </td>
+            </tr>
+            <tr>
+                <td style="color: #f2f2f2;">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae necessitatibus, deserunt amet commodi ratione veniam eos similique voluptates dolor quas accusantium? Nostrum veniam esse neque asperiores, exercitationem nam saepe voluptates sint et voluptatem nulla reiciendis id ratione ex. Alias nobis inventore voluptatum blanditiis. Aut quo fugit deleniti officiis. Impedit, dolorem.
+                </td>
+                <td style="text-align: center;"> <img id="div3" src="/aficionado/copasimonbolivar/images-simon/grupos copa simon bolivar.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td > <img src="/aficionado/copasimonbolivar/images-simon/fase final tipo 2.jpg" alt=""></td>
+                <td style="color: beige;">
+                    <h2>Lorem ipsum dolor sit amet.</h2>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga autem quis dignissimos facere laborum tenetur similique quibusdam reiciendis explicabo asperiores corrupti ab, quos id cupiditate vel numquam eveniet fugiat quasi. Commodi dolor dicta tempora itaque, blanditiis at, eos suscipit ex rem unde culpa illum odio? Enim nihil quaerat nostrum asperiores?
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
-
-
-
-
-
-    
+    <!--pie de pagina-->
+    <div id="div1">
+       <img src="https://www.fbf.com.bo/img/logo-footer-centro.png" width="150px" height="150px">
+    </div>    
 </body>
 </html>

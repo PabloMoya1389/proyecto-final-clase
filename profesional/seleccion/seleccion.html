@@ -3,12 +3,115 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bienvenidos a la pagina de la seleccion boloviana de Futbol</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Division profesional</title>
 </head>
-<body>
-    <h1>Bienvenidos a la pagina de la seleccion boloviana de Futbol</h1>
-    <img src="images/boli94.jpg" alt="">
-    <a href="/">Inicio</a>
+<body class="bg-cover bg-p-x:center" style="background-position-x: center; background-size: cover; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/fondo1.jpg);" >
+
+    <!-- Contenedor del Div con Imágenes -->
+    <div class="bg-green-800 flex items-center justify-center space-x-3 "  >
+        <a href="https://www.conmebol.com/" target="_blank">
+            <img src="https://www.fbf.com.bo/img/conmebol.png" target="_blank" class="w-16 h-16  cursor-pointer">
+        </a>
+        <a href="https://www.fifa.com/fifaplus/es/">
+            <img src="https://www.fbf.com.bo/img/fifa.png" target="_blank" class="w-24 h-12  cursor-pointer">
+        </a>
+        <a href="https://www.fbf.com.bo/campeonatos.php?id=5" >
+            <img src="https://www.fbf.com.bo/img/escudo.png" target="_blank" class="w-16 h-16  cursor-pointer">
+        </a>
+    </div>
+    
+    <!--barra de navegacion-->
+    <nav class="bg-green-500 p-4 rounded-xl">
+      <div class="container mx-auto flex items-center justify-between flex-wrap">
+  
+          <a href="https://www.fbf.com.bo/campeonatos.php?id=5" target="_blank" class="flex items-center text-white mb-4">
+              <img src="https://www.fbf.com.bo/img/escudo.png" target="_blank" class="w-16 h-16 cursor-pointer mr-2">
+              <span class="text-2xl font-bold">FBF</span>
+          </a>
+  
+          <!-- Menú de Navegación -->
+          <ul class="flex flex-wrap items-center space-x-3">
+              <li><a href="/" class="text-white">Inicio</a></li>
+              <li><a href="/profesional/profesional.html" class="text-white">División Profecional</a></li>
+              <li><a href="/profesional/seleccion/seleccion.html" class="text-white">Selección</a></li>
+              <li><a href="/profesional/seleccion/fixure/calendario eliminatoria.html" class="text-white">Calendario</a></li>
+              <li><a href="/profesional/seleccion/jugadores/jugadores.html" class="text-white">Jugadores</a></li>
+          </ul>
+      </div>
+   </nav>
+
+    <!-- Contenido de la página -->
+    <div class="container mx-auto mt-2">
+        <h1 class="text-3xl font-bold mb-4" style="color: rgb(172, 184, 172); text-align: center;" >Seleccion Boliviana de Futbol </h1>
+        
+    </div>
+
+
+    <!--contenido-->
+
+    <div class="container flex flex-row sm:flex-row">
+      <div class="w-full sm:w-1/3 p-4">
+        <div class="bg-gray-200 p-4 rounded-md">
+          <img src="https://cdn.conmebol.com/wp-content/uploads/2015/09/boli94.jpg" class="w-full h-auto mb-4">
+          <p class="text-center">Seleccion 94</p>
+        </div>
+      </div>
+    
+      <div class="w-full sm:w-1/3 p-4">
+        <div class="bg-gray-200 p-4 rounded-md">
+          <img src="https://elmundo.com.bo/wp-content/uploads/2023/10/1-13-5-1-750x430.jpeg" class="w-full h-auto mb-4">
+          <p class="text-center">Seleccion Actual</p>
+        </div>
+      </div>
+    
+      <div class="w-full sm:w-1/3 p-4">
+        <div class="bg-gray-200 p-4 rounded-md">
+          <img src="https://www.paginasiete.bo/binrepository/768x513/0c16/767d432/none/106951/LEUM/bolivia-sub-17_21-5325281_20230331234537.jpg" class="w-full h-auto mb-4">
+          <p class="text-center">Seleccion sub 17</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mx-auto mt-8 flex flex-col md:flex-row">
+     
+      <div class="w-full md:w-2/3 p-4">
+        <div class="bg-gray-200 p-4 rounded-md">
+          <img src="/profesional/seleccion/images/Captura de pantalla 2023-12-21 003750.png" class="w-full h-auto rounded-md">
+          <p class="text-center">Poleras de la seleccion Boliviana</p>
+        </div>
+      </div>
+    
+      <div class="w-full md:w-1/3 p-4">
+        <div class="bg-gray-200 p-4 rounded-md mb-4 md:mb-0">
+          <img src="/profesional/seleccion/images/partidos.png" class="w-full h-auto rounded-md">
+          <p class="text-center">Datos de la seleccion Boliviana</p>
+        </div>
+      </div>
+    
+      <div class="w-full md:w-1/3 p-4">
+        <div class="bg-gray-200 p-4 rounded-md">
+          <img src="/profesional/seleccion/images/mas.png" class="w-full h-auto rounded-md">
+          <p class="text-center">Partidos del mundial de la seleccion Boliviana</p>
+        </div>
+      </div>
+    </div>
+
+    
+
+
+
+
+
+
+      
+
+    <footer class="bg-green-800">
+    <div class="container mx-auto flex items-center justify-center">
+      <img src="https://www.fbf.com.bo/img/logo-footer-centro.png" class="w-48 h-24">
+      <p class="text-white"> © 2023 FBF. Todos los derechos reservados.</p>
+    </div>
+  </footer>
     
 </body>
 </html>
